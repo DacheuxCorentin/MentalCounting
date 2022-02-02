@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="validate">Valider</string>
+    <string name="your_answer">Votre réponse</string>
+    <string name="wrong_answer">Mauvaise réponse</string>
+    <string name="correct_answer">Bonne Réponse</string>
+    <string name="question">Question</string>
+    <string name="delete">Effacer</string>
+    <string name="score">Score</string>
+    <string name="submit">Valider</string>
+    <string name="number_operations">Il y a eu XX opérations.</string>
+    <string name="success_percentage">Pourcentage de réussite: XX%</string>
+    <string name="last_operation">Dernière opération: XXXXX</string>
+    <string name="previous">Précédent</string>
+</resources>
