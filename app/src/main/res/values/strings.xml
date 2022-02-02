@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Play">Play</string>
+    <string name="Score">Score</string>
+    <string name="compute_menu_label">compute</string>
+    <string name="reset_menu_label">reset</string>
+</resources>
