@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 
+import com.example.myapplication.R;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

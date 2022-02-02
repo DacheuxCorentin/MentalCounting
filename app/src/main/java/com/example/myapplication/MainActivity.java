@@ -10,10 +10,12 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+/*
         associateOpenActivityToButton(R.id.compute_button, ComputeActivity.class);
         associateOpenActivityToButton(R.id.result_button, ResultActivity.class);
 
-
+  */  }
         private void associateOpenActivityToButton(int id,Class activity){
             Button button = findViewById(id);
             button.setOnClickListener(view -> openActivity(activity));
@@ -25,4 +27,3 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
     }
-}
