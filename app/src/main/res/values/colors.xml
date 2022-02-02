@@ -10,4 +10,7 @@
     <color name="green">#2E7D32</color>
     <color name="red">#DD2C00</color>
     <color name="grey">#616161</color>
+
+    <color name="textColor">@color/black</color>
+    <color name="colorText">@color/white</color>
 </resources>
