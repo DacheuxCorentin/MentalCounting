@@ -9,6 +9,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class CalculateActivity extends AppCompatActivity {
 
@@ -36,6 +37,10 @@ public class CalculateActivity extends AppCompatActivity {
 
         if(item.getItemId()==R.id.back_menu_button)
             finish();
+
+        if(item.getItemId()==R.id.delete_menu_button){
+            Toast.makeText(getApplicationContext(),"Historique supprimé",Toast.LENGTH_LONG).show();
+        }
 
         return super.onOptionsItemSelected(item);
     }
