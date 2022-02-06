@@ -11,27 +11,19 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
 
         <Button
             android:id="@+id/play_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/Play" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:minHeight="50dp"/>
+            android:text="Play" />
 
         <Button
-            android:id="@+id/Score_button"
+            android:id="@+id/score_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/Score" />
+            android:text="Score" />
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

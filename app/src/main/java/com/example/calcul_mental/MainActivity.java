@@ -2,11 +2,11 @@ package com.example.calcul_mental;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
-
-import com.example.myapplication.R;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,13 +14,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        associateOpenActivityToButton(R.id.play_button, CalculateActivity.class);
+        associateOpenActivityToButton(R.id.score_button, ScoreActivity.class);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater menuInflater= getMenuInflater();
-        menuInflater.inflate(R.menu.main_activity_menu,menu);
+    private void associateOpenActivityToButton(int id, Class activity){
+        Button mainButton=findViewById(id);
+        mainButton.setOnClickListener(view -> openActivity(activity));
+    }
 
-        return super.onCreateOptionsMenu(menu);
+    private void openActivity(Class activity) {
+        Intent intent = new Intent(this,activity);
+        startActivity(intent);
     }
 }

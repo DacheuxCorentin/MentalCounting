@@ -3,7 +3,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/score_menu_button"
         android:title="@string/score"
         app:showAsAction="always" />
-    <item android:title="@string/delete" />
+    <item
+        android:id="@+id/back_menu_button"
+        android:title="@string/back" />
+    <item
+        android:id="@+id/delete_menu_button"
+        android:title="@string/delete" />
 </menu>

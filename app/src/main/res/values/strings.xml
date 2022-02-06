@@ -1,20 +1,16 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="Play">Play</string>
-    <string name="Score">Score</string>
-    <string name="compute_menu_label">compute</string>
-    <string name="reset_menu_label">reset</string>
-
-    <string name="validate">Submit</string>
-    <string name="your_answer">Your answer</string>
-    <string name="wrong_answer">Wrong Answer</string>
-    <string name="correct_answer">Correct Answer</string>
-    <string name="question">Question</string>
-    <string name="delete">Delete</string>
-    <string name="score">Score</string>
-    <string name="submit">submit</string>
-    <string name="number_operations">Number of operations: XX</string>
-    <string name="success_percentage">Success percentage: XX%</string>
-    <string name="last_operation">Last operation: XXXXX</string>
+    <string name="app_name" translatable="false">Calcul mental</string>
+    <string name="question">Question :</string>
+    <string name="correct_answer">Correct !</string>
+    <string name="wrong_answer">Wrong !</string>
+    <string name="submit">Submit</string>
+    <string name="answer_here">Answer here</string>
+    <string name="exemple_1_1" translatable="false">exemple : 1 + 1 =</string>
+    <string name="number_operation">Number of operations : XX</string>
+    <string name="percentage_success">Percentage of success : XXX%</string>
+    <string name="last_operation">Last operation : 1 + 1 = 2</string>
     <string name="previous">Previous</string>
+    <string name="score">Score</string>
+    <string name="delete">Delete</string>
+    <string name="back">Back</string>
 </resources>
