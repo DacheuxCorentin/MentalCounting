@@ -13,7 +13,7 @@
             android:name=".ScoreActivity"
             android:exported="false" />
         <activity
-            android:name=".CalculateActivity"
+            android:name=".activities.CalculateActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
